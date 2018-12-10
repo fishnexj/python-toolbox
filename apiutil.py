@@ -14,4 +14,4 @@ def apiLog(url,message):
 # print the URL and whether calling it worked...
 	statusDataVersion = str( url ) + "," + str( message )
 	statusPrintVersion = str( url ) + " --- " + str( message )
-	return print( status, end="\r" )  
+	print( statusPrintVersion)
